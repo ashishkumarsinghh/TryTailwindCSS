@@ -9,6 +9,6 @@
     "tailwindcss": "^1.4.6"
   },
   "scripts": {
-    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+    "build": "postcss css/tailwind.css -o public/build/main.css"
   }
 }
