@@ -7,12 +7,14 @@
     <link rel="stylesheet" href="main.css" type="text/css" />
   </head>
   <body>
-    <nav class="p-2 flex flex-col md:flex-row shadow-2xl">
+    <nav class="p-2 flex flex-col md:flex-row border-t-8 border-indigo-700">
       <div
         class="md:w-1/3 text-center sm:tracking-tighter text-2xl md:text-2xl lg:text-3xl md:text-left"
       >
-        <span class="text-indigo-700 font-extrabold">ASHISH</span>
-        <span class="text-gray-800 font-bold"> KUMAR SINGH</span>
+        <a href="">
+          <span class="text-indigo-700 font-extrabold">ASHISH</span>
+          <span class="text-gray-800 font-bold"> KUMAR SINGH</span></a
+        >
       </div>
       <div class="md:w-2/3 p-2">
         <ul
@@ -41,5 +43,40 @@
         </ul>
       </div>
     </nav>
+
+    <main>
+      <div
+        class="h-screen"
+        style="
+          background-image: url(cover.jpg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        "
+      >
+        <div
+          class="text-gray-300 h-full px-2 bg-transparent bg-gray-900 bg-opacity-50 py-20"
+        >
+          <p class="font-thin py-8 font-extrabold text-3xl">HELLO !</p>
+          <p class="font-thin pt-2 font-extrabold text-6xl">
+            I AM
+            <span class="text-indigo-700 font-extrabold">ASHISH.</span>
+          </p>
+          <p class="font-semibold mt-2 text-sm italic text-gray-300">
+            A Software Engineer, from INDIA, with a passion to create cool
+            stuff.
+          </p>
+          <p>
+            <ul class="flex flex-row mt-16">
+              <li class="mr-4"><a href="https://twitter.com/ks_ashi" target="_blank"><img src="twitter.svg" alt="twitter" width="50rem" class=""/></a></li>
+              <li class="mr-4"><a href="https://www.linkedin.com/in/ashishkumarsinghh/" target="_blank"><img src="linkedin.svg" alt="twitter"  width="50rem"/></a></li>
+              <li class="mr-4"><a href="https://github.com/ashishkumarsinghh" target="_blank"><img src="github.svg" alt="twitter" width="50rem"/></a></li>
+              <li><a href="mailto:ashishkumarsinghh@outlook.com" target="_blank"><img src="mail.svg" alt="twitter" width="50rem"/></a></li>
+
+            </ul>
+          </p>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
